@@ -29,7 +29,7 @@ function init_threeScene(spec) {
   
   // Load our cool hat:
   loader.load(
-    'models/luffys_hat.json',
+    'models/zabo_hat.json',
     function (geometry, materials) {
       // we create our Hat mesh
       const mat = new THREE.MeshBasicMaterial({
