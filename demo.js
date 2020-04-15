@@ -77,7 +77,7 @@ function init_faceFilter(videoSettings){
     videoSettings: videoSettings,
     callbackReady: function (errCode, spec) {
       if (errCode) {
-        console.log('AN ERROR HAPPENED. SORRY BRO :( . ERR =', errCode);
+        console.log('AN ERROR HAPPENED. ERR =', errCode);
         return;
       }
 
